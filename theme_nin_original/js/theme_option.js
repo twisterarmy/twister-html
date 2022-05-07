@@ -55,15 +55,50 @@ $(function () {
     });
 });
 
-function testRightSide() { // if rightside is empty, don't show it and engarge postboard
-    var container = $('.dashboard.right');
 
-    if (container.children('.module:not(:empty)').length) {
-        container.show();
-        $('.wrapper .postboard').removeClass('large');
-    } else {
-        container.hide();
-        $('.wrapper .postboard').addClass('large');
+/* #28
+ *
+ * async blocks could not to be loaded completely on this test running,
+ * listening API or DOMSubtreeModified events allows to correctly check that right side container is really empty.
+ * in this solution we just checking that right-side modules enabled.
+ *
+ * please join following issue for details
+ * https://github.com/twisterarmy/twister-html/issues/28
+ *
+ * function testRightSide() { // if rightside is empty, don't show it and engarge postboard
+ *     var container = $('.dashboard.right');
+
+ *     if (container.children('.module:not(:empty)').length) {
+ *         container.show();
+ *         $('.wrapper .postboard').removeClass('large');
+ *     } else {
+ *         container.hide();
+ *         $('.wrapper .postboard').addClass('large');
+ *     }
+ * }
+ */
+
+function testRightSide() { // if at least the one right-side module enabled, hide right column and enlarge postboard
+
+    var container = $('.dashboard.right');
+    var postboard = $('.wrapper .postboard');
+
+    switch ('enable') {
+
+        case $.Options.TopTrends.val:
+        case $.Options.WhoToFollow.val:
+        case $.Options.TwistdayReminder.val:
+        case $.Options.NewUsers.val:
+
+            container.show();
+            postboard.removeClass('large');
+
+            break;
+
+        default:
+
+            container.hide();
+            postboard.addClass('large');
     }
 }
 
