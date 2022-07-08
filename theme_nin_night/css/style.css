@@ -1321,7 +1321,10 @@ textarea, input[type=text], input[type=textbox], select {
   font: 0.95em/1.3em "Roboto", sans-serif;
   font-weight: 400;
   background: #484b54;
-  color: #fff
+  color: #fff;
+  border: 1px #2b2e35 solid;
+  padding: 3px;
+  border-radius: 2px;
 }
 
 /* isFollowing */
