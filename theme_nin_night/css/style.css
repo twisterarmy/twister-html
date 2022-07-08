@@ -791,7 +791,7 @@ samp {
 }
 
 .post.new .post-info-time {
-    color: #2b2e35;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .post.promoted > .post-data .post-text::after {
