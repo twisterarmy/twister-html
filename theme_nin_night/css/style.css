@@ -1245,7 +1245,7 @@ span.connection-status:before {
 }
 /* line 58, ../sass/_network.sass */
 span.connection-status.connected:before {
-  background: #2b2e35;
+  background: #c6d973;
 }
 
 .network .post-area-extras {
