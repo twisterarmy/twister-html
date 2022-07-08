@@ -1771,6 +1771,13 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
     height: 1em;
 }
 
+.mini-profile-indicators .userMenu-groupmessages:hover a:before {
+    content: "";
+    background: transparent url("../img/groupmessages-hover.png") no-repeat scroll center center;
+    background-size: 24px 24px;
+    height: 1em;
+}
+
 /* line 208, ../sass/style.sass */
 .messages-qtd {
   position: absolute;
