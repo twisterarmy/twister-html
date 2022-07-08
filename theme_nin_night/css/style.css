@@ -1365,7 +1365,7 @@ button, .mini-profile-actions span, a.button {
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
   color: white;
-  background-color: #9d9ea3;
+  background-color: #2b2e35;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -1380,8 +1380,7 @@ button:hover, .mini-profile-actions span:hover, a.button:hover {
 }
 /* line 85, ../sass/_commons.sass */
 button:disabled, button.disabled, .mini-profile-actions span.disabled, a.button.disabled {
-  opacity: 0.5;
-  background-color: #999;
+  background-color: #2b2e35;
 }
 /* line 88, ../sass/_commons.sass */
 button:disabled:hover, button.disabled:hover, .mini-profile-actions span.disabled:hover, a.button.disabled:hover {
@@ -1521,7 +1520,7 @@ button:disabled:hover, button.disabled:hover, .mini-profile-actions span.disable
 /* line 31, ../sass/style.sass */
 .promoted-posts-only li.active {
   color: rgba(255, 255, 255, 0.7);
-  background: #2a2d36;
+  background: #393c45;
   cursor: default;
 }
 /* line 35, ../sass/style.sass */
@@ -1940,7 +1939,7 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
   margin-bottom: 1px;
   transition: height 0.3s linear;
   padding: 10px;
-  background: #2a2d36;
+  background: #393c45;
   overflow: hidden;
 }
 /* line 343, ../sass/style.sass */
