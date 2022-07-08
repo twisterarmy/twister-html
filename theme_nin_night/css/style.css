@@ -782,12 +782,12 @@ samp {
 
 /* line 50, ../sass/_postboard.sass */
 .module.open .post, .mini-profile .module.post-area-new .post, #postboard-top .post-area .module.post-area-new .post {
-  color: #b0b0b0;
+  color: #d1d2d7;
 }
 
 /* line 52, ../sass/_postboard.sass */
 .post:hover {
-  color: #b0b0b0;
+  color: #d1d2d7;
 }
 
 .post.new .post-info-time {
