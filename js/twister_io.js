@@ -432,6 +432,9 @@ function getAvatar(peerAlias, img) {
           case 'nin':
             avatar = 'theme_nin/img/tornado_avatar.png';
           break;
+          case 'nin_night':
+            avatar = 'theme_nin_night/img/tornado_avatar.png';
+          break;
           case 'nin_original':
             avatar = 'theme_nin_original/img/tornado_avatar.png';
           break;
