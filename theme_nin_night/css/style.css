@@ -2255,6 +2255,10 @@ textarea.splited-post {
   display: inline-block;
 }
 
+.twister-user-remove span {
+  display: none
+}
+
 /* line 485, ../sass/style.sass */
 .twister-user:hover .twister-user-remove {
   text-decoration: none;
