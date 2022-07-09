@@ -51,17 +51,17 @@ and keep in mind that your pull requests should have **twisterarmy** branch as b
 
         git checkout twisterarmy
 
-3. CREATE A NEW BRANCH, specific to the fix you're implementing:
+3. CREATE A NEW BRANCH, specific to the branch prefix and fix you're implementing:
 
-        git checkout -b my-awesome-fix
+        git checkout -b twisterarmy_my_awesome_fix
 
 4. Make your changes.
 
 5. Commit and push:
 
-        git commit -m "fix of #12345: bad foobarizer" && git push --set-upstream origin my-awesome-fix
+        git commit -m "fix of #12345: bad foobarizer" && git push --set-upstream origin twisterarmy_my_awesome_fix
 
-6. Now open a pull request from branch 'YOURNICKNAME:my-awesome-fix' to 'twisterarmy:twisterarmy' on GitHub.
+6. Now open a pull request from branch 'YOURNICKNAME:twisterarmy_my_awesome_fix' to 'twisterarmy:twisterarmy' on GitHub.
 
 7. Once the request is accepted, switch back to 'twisterarmy' and track changes in upstream repo:
 
