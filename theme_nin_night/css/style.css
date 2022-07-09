@@ -1264,6 +1264,7 @@ span.connection-status.connected:before {
 /* line 1, ../sass/_commons.sass */
 * {
   outline: none !important;
+  transition-duration: 0.2s;
 }
 
 /* line 4, ../sass/_commons.sass */
@@ -3636,8 +3637,4 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 
 .userMenu-config a:hover {
   color: rgba(255, 255, 255, 1)
-}
-
-.post * {
-  transition-duration: 0.2s;
 }
