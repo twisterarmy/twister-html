@@ -1,35 +1,27 @@
 twister-html
 ============
 
-HTML interface for twister core.
+HTML interface for **[twister](http://twister.net.co)** (see git repo [here](https://github.com/miguelfreitas/twister-core)). It is a FOSS which is being under heavy construction.
 
-See git repo [here](https://github.com/twisterarmy/twister-core).
-Official (currently unmaintained) [version](https://github.com/miguelfreitas/twister-core)
+To use it, clone this repo under `~/.twister/html` like this:
 
-Stable releses available on this [page](https://github.com/twisterarmy/twister-html/releases).
-
-To use development version, clone this repo under `~/.twister/html` like this:
-
-    git clone https://github.com/twisterarmy/twister-html.git ~/.twister/html
+    git clone https://github.com/miguelfreitas/twister-html.git ~/.twister/html
 
 If you're on **Mac OS X** — clone to `${HOME}/Library/Application\ Support/Twister/html` instead of `~/.twister/html`
 
-Switch the edition
------------------
+Be on the bleeding edge
+-----------------------
 
-TA Edition includes official Blaster updates and alternative features. To switch it, use followig commands:
+All nightly improvements and following fixes of these improvements are tested in [blaster](https://github.com/miguelfreitas/twister-html/tree/blaster) branch.
+To be sure you are at the forefront, in stage of lack of testing and consensus:
 
-    git pull && git checkout twisterarmy
+    git pull && git checkout blaster
 
-If you want to switch blaster branch:
-
-    git checkout blaster
-
-If the master branch:
+If you want to switch back to stable branch:
 
     git checkout master
 
-Get updates:
+Follow `@letstwist` in twister to be aware of recent changes. In case of getting of twister-html related buzz from it:
 
     git pull
 
@@ -39,7 +31,7 @@ Contribute
 Feel free to fork and send pull requests!
 
 To make it easier for us to accept your patches, please follow the conventional GitHub workflow
-and keep in mind that your pull requests should have **twisterarmy** branch as both the origin and target.
+and keep in mind that your pull requests should have **blaster** branch as both the origin and target.
 
 1. After forking, clone your repo:
 
@@ -47,42 +39,38 @@ and keep in mind that your pull requests should have **twisterarmy** branch as b
         git clone git@github.com:YOURNICKNAME/twister-html.git ~/.twister/html
         cd ~/.twister/html
 
-2. Switch to 'twisterarmy' branch:
+2. Switch to 'blaster' branch:
 
-        git checkout twisterarmy
+        git checkout blaster
 
-3. CREATE A NEW BRANCH, specific to the branch prefix and fix you're implementing:
+3. CREATE A NEW BRANCH, specific to the fix you're implementing:
 
-        git checkout -b twisterarmy_my_awesome_fix
+        git checkout -b my-awesome-fix
 
 4. Make your changes.
 
 5. Commit and push:
 
-        git commit -m "fix of #12345: bad foobarizer" && git push --set-upstream origin twisterarmy_my_awesome_fix
+        git commit -m "fix of #12345: bad foobarizer" && git push
 
-6. Now open a pull request from branch 'YOURNICKNAME:twisterarmy_my_awesome_fix' to 'twisterarmy:twisterarmy' on GitHub.
+6. Now open a pull request from branch 'YOURNICKNAME:my-awesome-fix' to 'miguelfreitas:blaster' on GitHub.
 
-7. Once the request is accepted, switch back to 'twisterarmy' and track changes in upstream repo:
+7. Once the request is accepted, switch back to 'blaster' and track changes in upstream repo:
 
-        git remote add upstream https://github.com/twisterarmy/twister-html.git  # this is one-off setup
-        git fetch upstream && git checkout twisterarmy
-        git merge upstream/twisterarmy  # you should get a fast-forward message here
+        git remote add upstream https://github.com/miguelfreitas/twister-html.git  # this is one-off setup
+        git fetch upstream && git checkout blaster
+        git merge upstream/blaster  # you should get a fast-forward message here
         git push
-
-8. Alternatively, make your contribution into the official project:
-
-        https://github.com/miguelfreitas
 
 Translations
 ------------
 
 If you want to add your own translation, edit `interface_localization.js` like this:
 
-1. Fork the repo and create a new branch from 'twisterarmy' one:
+1. Fork the repo and create a new branch from 'blaster' one:
 
         git clone git@github.com:YOURNICKNAME/twister-html.git ~/.twister/html
-        cd ~/.twister/html && git checkout twisterarmy
+        cd ~/.twister/html && git checkout blaster
         git checkout -b Klingon-translation
 
 2. Add your language to the list of available choices. You should use your ISO code here,
@@ -112,7 +100,6 @@ For multi-region languages, if you want to catch them all, use only the first ha
         git commit -m 'Klingon translation'
         git push origin Klingon-translation
 
-6. Then open the pull request from branch 'YOURNICKNAME:Klingon-translation' to 'twisterarmy:twisterarmy' or 'twisterarmy:twisterarmy' on GitHub.
+6. Then open the pull request from branch 'YOURNICKNAME:Klingon-translation' to 'miguelfreitas:blaster' on GitHub.
 
-[Community support](https://github.com/twisterarmy/twister-html/issues)
-[Official support](https://github.com/miguelfreitas/twister-core/issues)
+For any help ping `@tasty` in twister.
