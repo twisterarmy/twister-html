@@ -3637,3 +3637,7 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 .userMenu-config a:hover {
   color: rgba(255, 255, 255, 1)
 }
+
+.post * {
+  transition-duration: 0.2s;
+}
