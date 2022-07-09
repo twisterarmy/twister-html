@@ -1770,13 +1770,11 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
     background: transparent url("../img/groupmessages.png") no-repeat scroll center center;
     background-size: 24px 24px;
     height: 1em;
+    opacity: 0.65
 }
 
 .mini-profile-indicators .userMenu-groupmessages:hover a:before {
-    content: "";
-    background: transparent url("../img/groupmessages-hover.png") no-repeat scroll center center;
-    background-size: 24px 24px;
-    height: 1em;
+    opacity: 1
 }
 
 /* line 208, ../sass/style.sass */
