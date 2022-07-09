@@ -2586,7 +2586,7 @@ ol.toptrends-list a:hover {
 
 
 .inline-warn {
-    background-color: #FEFEDF;
+    background-color: #404655;
     padding: 10px;
 }
 
@@ -3229,7 +3229,7 @@ position: relative;
 
 .uri-shortener-modal .uris-list li.highlighted,
 .uri-shortener-modal .uris-list li:hover {
-    background-color: #FEFEDF;
+    background-color: #404655;
 }
 
 .uri-shortener-modal .uris-list .short {
