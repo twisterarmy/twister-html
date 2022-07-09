@@ -662,7 +662,7 @@ function checkUpdatesClient(alertIfNoUpdates) {
             }
 
             var repo = 'twister-html';  // TODO source repo selection in options
-            var repoOwner = 'twisterarmy';
+            var repoOwner = 'miguelfreitas';
 
             // TODO notification if local branch was changed ('r u wanna reload the page?')
             /*if (!twister.var.updatesCheckClient.formerBranch || !twister.var.updatesCheckClient.formerCommit) {
