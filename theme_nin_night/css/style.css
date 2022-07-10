@@ -274,8 +274,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 samp {
-    background-color: #000;
-    padding: 4px 6px;
+  background-color: #000;
+  padding: 6px;
+  margin: 4px 0;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 3px;
 }
 
 /* FONTS */
