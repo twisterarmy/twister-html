@@ -279,6 +279,7 @@ function setPostInfoSent(n, k, item) {
             function(args,count) {
                 if( count >= 2 ) { // assume 2 peers (me + 1) is enough for "sent"
                     args.item.text("\u2713"); // check mark
+                    args.item.attr("title", "\u2713 " + count); // display recipients quentity on sent icon title
                 } else {
                     args.item.text("\u231B"); // hour glass
                     setTimeout(setPostInfoSent,30000,n,k,item);
