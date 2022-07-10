@@ -277,7 +277,7 @@ function setPostInfoSent(n, k, item) {
     if( n === defaultScreenName && k >= 0 ) {
         getPostMaxAvailability(n,k,
             function(args,count) {
-                if( count >= 3 ) { // assume 3 peers (me + 2) is enough for "sent"
+                if( count >= 2 ) { // assume 2 peers (me + 1) is enough for "sent"
                     args.item.text("\u2713"); // check mark
                 } else {
                     args.item.text("\u231B"); // hour glass
