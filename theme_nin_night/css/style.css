@@ -1091,8 +1091,13 @@ samp {
 .post-stats .stat-count {
   font-size: 12px;
   color: #b3b5b7;
-  padding-right: 4px;
+  padding-right: 8px;
   border-right: solid 1px #31343d;
+}
+
+.post-stats .stat-count div {
+  display: inline-block;
+  line-height: 32px;
 }
 
 .post-stats .stat-count .stat-count-value {
@@ -1100,7 +1105,7 @@ samp {
 }
 
 .post-stats .avatar-row {
-  padding: 4px;
+  padding: 4px 8px;
 }
 
 .post-stats .avatar-row a {
