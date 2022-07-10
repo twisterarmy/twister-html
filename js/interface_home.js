@@ -75,7 +75,7 @@ var InterfaceFunctions = function() {
                 twister.var.initializated = true;
                      $(".mini-profile .following-count").text(followingUsers.length-1);
                      requestLastHave();
-                     setInterval(requestLastHave, 1000);
+                     setInterval(requestLastHave, 30000);
                      initMentionsCount();
                      initDMsCount();
                      requestTimelineUpdate("latestFirstTime",postsPerRefresh,followingUsers,promotedPostsOnly);
