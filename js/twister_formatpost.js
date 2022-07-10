@@ -281,7 +281,7 @@ function setPostInfoSent(n, k, item) {
                     args.item.text("\u2713"); // check mark
                 } else {
                     args.item.text("\u231B"); // hour glass
-                    setTimeout(setPostInfoSent,2000,n,k,item);
+                    setTimeout(setPostInfoSent,30000,n,k,item);
                 }
             }, {n:n,k:k,item:item});
     }
