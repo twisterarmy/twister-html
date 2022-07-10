@@ -3217,7 +3217,7 @@ position: relative;
 }
 
 .uri-shortener-modal .uris-list li {
-    background-color: #FFF;
+    background-color: #393c45;
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 2px;
@@ -3233,7 +3233,7 @@ position: relative;
 }
 
 .uri-shortener-modal .uris-list .short {
-    background-color: #EEE;
+    background-color: #000;
     display: inline-block;
     width: 26%;
     padding-left: 2px;
