@@ -552,7 +552,7 @@ function handleClickOpenConversation(event) {
 
 
 function clearProfilePage() {
-    $("#profile .profile-card-photo").attr("src","img/grayed_avatar_placeholder_24.png");
+    $("#profile .profile-card-photo").attr("src","img/genericPerson.png");
     $("#profile .profile-name").text("");
     $("#profile .profile-location").text("");
     $("#profile .profile-url").text("");
