@@ -3193,7 +3193,6 @@ position: relative;
 /* line 972, ../sass/style.sass */
 .who-to-follow-modal .bio,
 .new-users-modal .bio {
-  color: rgba(0, 0, 0, 0.6);
   font-style: italic;
 }
 
