@@ -2388,9 +2388,8 @@ ol.toptrends-list a:hover {
 }
 
 .twistday-reminder h4 {
-  margin: 1% 1% 1% 16%;
   font-size: 0.84em;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .twistday-reminder a:hover {
