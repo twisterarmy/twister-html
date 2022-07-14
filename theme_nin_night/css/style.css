@@ -540,10 +540,9 @@ samp {
 
 /* line 121, ../sass/_profile.sass */
 .profile-card-photo {
-  height: 75px;
+  height: 64px;
   margin: 0 auto;
   display: block;
-  width: auto;
 }
 
 /* line 134, ../sass/_profile.sass */
@@ -1822,8 +1821,8 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
 
 /* line 234, ../sass/style.sass */
 .mini-profile-photo {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   overflow: hidden;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
