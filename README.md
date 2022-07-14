@@ -72,7 +72,7 @@ and keep in mind that your pull requests should have **twisterarmy** branch as b
 
 8. Alternatively, make your contribution into the official project:
 
-        https://github.com/miguelfreitas
+        https://github.com/miguelfreitas/twister-html
 
 Translations
 ------------
