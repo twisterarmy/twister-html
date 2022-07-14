@@ -2083,12 +2083,10 @@ textarea.splited-post {
 
 /* FIXME need to rework and replace all .twister-user to get same vis */
 .twister-peer {
-    margin: 0;
     min-height: 72px;
     padding: 4px;
-    border-bottom: solid 1px rgba(69, 71, 77, .1);
-    border-top: solid 1px rgba(69, 71, 77, .1);
-    background: #FFF;
+    margin-bottom: 1px;
+    background: #393c45;
 }
 
 .twister-peer + .twister-peer {
