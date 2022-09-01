@@ -595,7 +595,9 @@ function htmlFormatMsg(msg, opt) {
         var markoutOpt = $.Options.postsMarkout.val;
 
     var mentionsChars = 'abcdefghijklmnopqrstuvwxyz_0123456789';
-    var stopCharsTrailing = '/\\*~_-`.,:;?!%\'"[](){}^|«»…\u201C\u201D\u2026\u2014\u4E00\u3002\uFF0C\uFF1A\uFF1F\uFF01\u3010\u3011\u2047\u2048\u2049';
+    // var stopCharsTrailing = '/\\*~_-`.,:;?!%\'"[](){}^|«»…\u201C\u201D\u2026\u2014\u4E00\u3002\uFF0C\uFF1A\uFF1F\uFF01\u3010\u3011\u2047\u2048\u2049';
+    // remove [] filtering as could be a part of yggdrasil ipv6 links
+    var stopCharsTrailing = '/\\*~_-`.,:;?!%\'"(){}^|«»…\u201C\u201D\u2026\u2014\u4E00\u3002\uFF0C\uFF1A\uFF1F\uFF01\u3010\u3011\u2047\u2048\u2049';
     var stopCharsTrailingUrl = stopCharsTrailing.slice(1);
     var whiteSpaces = ' \f\n\r\t\v​\u00A0\u1680\u180E\u2000​\u2001\u2002​\u2003\u2004\u2005\u2006​\u2007\u2008​\u2009\u200A\u2028\u2029​\u202F\u205F\u3000';
     var whiteSpacesUrl = '\'\"' + whiteSpaces;
