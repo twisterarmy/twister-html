@@ -231,7 +231,7 @@
     display: block
 
 .expanded-post
-    .post-expand, .post-reply, .post-propagate, .post-favorite
+    .post-expand, .post-reply, .post-propagate, .post-favorite, .post-translate
         color: lighten($dark-grey,30%)
         &:hover
             color: lighten($dark-grey,5%)
@@ -240,22 +240,22 @@
     display: none
     margin: 0
 
-.post-reply, .post-propagate, .post-favorite
+.post-reply, .post-propagate, .post-favorite, .post-translate
     padding-left: 10px
     display: none
 
 .post:hover, .original.open .post-interactions, .post:hover .original .post-interactions, .related.post:hover
-    .post-reply, .post-propagate, .post-favorite
+    .post-reply, .post-propagate, .post-favorite, .post-translate
         display: inline-block
 
 .open .related
-    .post-reply, .post-propagate, .post-favorite
+    .post-reply, .post-propagate, .post-favorite, .post-translate
         display: none!important
     &:hover
         .post-reply, .post-propagate/*, .post-favorite*/
             display: inline-block!important
 
-.post-reply:hover, .post-propagate:hover, .post-favorite:hover
+.post-reply:hover, .post-propagate:hover, .post-favorite:hover, .post-translate:hover
     color: lighten($dark-grey,5%)
 
 .expanded-content

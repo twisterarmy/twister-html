@@ -265,16 +265,18 @@
 			@extend .ion-alert
 
 	.post:hover &
-		.post-reply, .post-propagate , .post-favorite
+		.post-reply, .post-propagate, .post-favorite, .post-translate
 			display: inline-block
 
 
 .open .related
+	.post-translate,
 	.post-reply,
 	.post-propagate,
 	.post-favorite
 		display: none!important
 	&:hover
+		.post-translate,
 		.post-reply,
 		.post-propagate,
 		.post-favorite

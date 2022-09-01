@@ -1015,11 +1015,11 @@ samp {
 }
 
 /* line 215, ../sass/_postboard.sass */
-.expanded-post .post-expand, .expanded-post .post-reply, .expanded-post .post-propagate, .expanded-post .post-favorite {
+.expanded-post .post-expand, .expanded-post .post-reply, .expanded-post .post-propagate, .expanded-post .post-favorite, .expanded-post .post-translate {
   color: #b3b5b7;
 }
 /* line 217, ../sass/_postboard.sass */
-.expanded-post .post-expand:hover, .expanded-post .post-reply:hover, .expanded-post .post-propagate:hover, .expanded-post .post-favorite:hover {
+.expanded-post .post-expand:hover, .expanded-post .post-reply:hover, .expanded-post .post-propagate:hover, .expanded-post .post-favorite:hover, .expanded-post .post-translate:hover {
   color: #e3bc71;
 }
 
@@ -1030,13 +1030,13 @@ samp {
 }
 
 /* line 224, ../sass/_postboard.sass */
-.post-reply, .post-propagate, .post-favorite {
+.post-reply, .post-propagate, .post-favorite, .post-translate {
   padding-left: 10px;
   display: none;
 }
 
 /* line 229, ../sass/_postboard.sass */
-.post:hover .post-reply, .post:hover .post-propagate, .post:hover .post-favorite, .original.open .post-interactions .post-reply, .mini-profile .original.post-area-new .post-interactions .post-reply, #postboard-top .post-area .original.post-area-new .post-interactions .post-reply, .original.open .post-interactions .post-propagate, .mini-profile .original.post-area-new .post-interactions .post-propagate, #postboard-top .post-area .original.post-area-new .post-interactions .post-propagate, .original.open .post-interactions .post-favorite, .mini-profile .original.post-area-new .post-interactions .post-favorite, #postboard-top .post-area .original.post-area-new .post-interactions .post-favorite, .post:hover .original .post-interactions .post-reply, .post:hover .original .post-interactions .post-propagate, .post:hover .original .post-interactions .post-favorite, .related.post:hover .post-reply, .related.post:hover .post-propagate, .related.post:hover .post-favorite {
+.post:hover .post-reply, .post:hover .post-propagate, .post:hover .post-favorite, .original.open .post-interactions .post-reply, .mini-profile .original.post-area-new .post-interactions .post-reply, #postboard-top .post-area .original.post-area-new .post-interactions .post-reply, .original.open .post-interactions .post-propagate, .mini-profile .original.post-area-new .post-interactions .post-propagate, #postboard-top .post-area .original.post-area-new .post-interactions .post-propagate, .original.open .post-interactions .post-favorite, .mini-profile .original.post-area-new .post-interactions .post-favorite, #postboard-top .post-area .original.post-area-new .post-interactions .post-favorite, .post:hover .original .post-interactions .post-reply, .post:hover .original .post-interactions .post-propagate, .post:hover .original .post-interactions .post-favorite, .related.post:hover .post-reply, .related.post:hover .post-propagate, .related.post:hover .post-favorite, .post:hover .post-translate {
   display: inline-block;
 }
 
@@ -1050,7 +1050,7 @@ samp {
 }
 
 /* line 239, ../sass/_postboard.sass */
-.post-reply:hover, .post-propagate:hover, .post-favorite:hover {
+.post-reply:hover, .post-propagate:hover, .post-favorite:hover, .post-translate:hover {
   color: rgba(255, 255, 255, 1)
 }
 
@@ -1460,7 +1460,7 @@ button:disabled, button.disabled, .mini-profile-actions span.disabled, a.button.
   visibility: hidden;
 }
 /* line 42, ../sass/_tabs.sass */
-.options input#tab_language:checked ~ .tab-content .language, .options input#t-2:checked ~ .tab-content .theme, .options input#t-3:checked ~ .tab-content .notifications, .options input#t-4:checked ~ .tab-content .keys, .options input#t-5:checked ~ .tab-content .appearance, .options input#t-6:checked ~ .tab-content .users, .options input#t-7:checked ~ .tab-content .webtorrent, .options input#t-8:checked ~ .tab-content .DMs {
+.options input#tab_language:checked ~ .tab-content .language, .options input#t-2:checked ~ .tab-content .theme, .options input#t-3:checked ~ .tab-content .notifications, .options input#t-4:checked ~ .tab-content .keys, .options input#t-5:checked ~ .tab-content .appearance, .options input#t-6:checked ~ .tab-content .users, .options input#t-7:checked ~ .tab-content .webtorrent, .options input#t-8:checked ~ .tab-content .DMs, .options input#t-9:checked ~ .tab-content .translation {
   position: relative;
   z-index: 10;
   opacity: 1;

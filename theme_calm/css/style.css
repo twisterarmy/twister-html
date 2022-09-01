@@ -1646,6 +1646,7 @@ textarea.splited-post {
 {
     display: none;
 }
+.post-translate,
 .post-reply,
 .post-propagate,
 .post-favorite
@@ -1661,30 +1662,36 @@ textarea.splited-post {
     -o-transition: all 200ms;
     transition: all 200ms;
 }
+.post:hover .post-translate,
 .post:hover .post-reply,
 .post:hover .post-propagate,
 .post:hover .post-favorite,
+.original.open .post-interactions .post-translate,
 .original.open .post-interactions .post-reply,
 .original.open .post-interactions .post-propagate,
 .original.open .post-interactions .post-favorite,
+.post:hover .original .post-interactions .post-translate,
 .post:hover .original .post-interactions .post-reply,
 .post:hover .original .post-interactions .post-propagate,
 .post:hover .original .post-interactions .post-favorite
 {
     display: inline-block;
 }
+.related.post:hover .post-translate,
 .related.post:hover .post-reply,
 .related.post:hover .post-propagate,
 .related.post:hover .post-favorite
 {
     display: inline-block;
 }
+.open .related .post-translate,
 .open .related .post-reply,
 .open .related .post-propagate,
 .open .related .post-favorite
 {
     display: none!important;
 }
+.open .related:hover .post-translate,
 .open .related:hover .post-reply,
 .open .related:hover .post-propagate,
 .open .related:hover .post-favorite
@@ -1703,10 +1710,16 @@ textarea.splited-post {
     background: none;
     padding-left: 0;
 }
+.post-translate
+{
+    background: none;
+    padding-left: 0;
+}
 .post-favorite:before
 {
     content: "★";
 }
+.post-translate:hover,
 .post-reply:hover,
 .post-propagate:hover,
 .post-favorite:hover

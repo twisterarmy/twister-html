@@ -340,6 +340,20 @@ function twisterOptions() {
         type: 'checkbox',
         valDefault: false
     });
+    this.add({
+        name: 'TranslationEnabled',
+        valDefault: 'disable',
+        tickMethod: function (elem) {
+            $('#TranslationCont').css('display', (elem.value === 'enable') ? 'block' : 'none');
+        }
+    });
+    this.add({
+        name: 'TranslationAPI',
+        type: 'text',
+        valDefault: 'https://lingva.ml/api/v1/auto/en/',
+        valMes: 'characters',
+        getMethod: function (val) {return val;}
+    });
 }
 
 twisterOptions.prototype.add = function (option) {

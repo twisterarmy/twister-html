@@ -60,6 +60,8 @@
       <label for="t-6" class="tabs selectable_theme theme_nin">Users</label>
       <input id="t-7" name="option_tab" type="radio" class="selectable_theme theme_nin" />
       <label for="t-7" class="tabs selectable_theme theme_nin">WebTorrent</label>
+      <input id="t-9" name="option_tab" type="radio" class="selectable_theme theme_nin" />
+      <label for="t-9" class="tabs selectable_theme theme_nin">Translation</label>
 
       <div class="tab-content">
 
@@ -535,6 +537,29 @@
                   <option value="disable">Disable</option>
                 </select>
               </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="translation">
+          <div class="module">
+            <p class="label label-h"> Translation </p>
+            <div class="container">
+              <form>
+                <p class="label">Translation support to display localized twists</p>
+                <select id="TranslationEnabled" class="container">
+                  <option value="enable">Enable</option>
+                  <option value="disable">Disable</option>
+                </select>
+              </form>
+            </div>
+            <div id="TranslationCont" class="container">
+              <form>
+                <p class="label">Translation API address</p>
+                <input type="text" id="TranslationAPI" size="80" class="container"/>
+                <a href="https://github.com/thedaviddelta/lingva-translate#instances" target="_blank">Get Instances</a>
+              </form>
+              <p></p>
             </div>
           </div>
         </div>

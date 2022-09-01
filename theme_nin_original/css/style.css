@@ -1999,11 +1999,11 @@ button.light:hover, a.button.light:hover {
 .post-interactions span:before {
   padding: 3px;
 }
-.post:hover .post-interactions .post-reply, .post:hover .post-interactions .post-propagate, .post:hover .post-interactions .post-favorite {
+.post:hover .post-interactions .post-reply, .post:hover .post-interactions .post-propagate, .post:hover .post-interactions .post-favorite, .post:hover .post-interactions .post-translate {
   display: inline-block;
 }
 
-.open .related .post-reply, #postboard-top .post-area .post-area-new .related .post-reply, .mini-profile .post-area-new .related .post-reply,
+.open .related .post-reply, #postboard-top .post-area .post-area-new .related .post-reply, .mini-profile .post-area-new .related .post-reply, .mini-profile .post-area-new .related .post-translate,
 .open .related .post-propagate,
 #postboard-top .post-area .post-area-new .related .post-propagate,
 .mini-profile .post-area-new .related .post-propagate,
@@ -2012,7 +2012,7 @@ button.light:hover, a.button.light:hover {
 .mini-profile .post-area-new .related .post-favorite {
   display: none !important;
 }
-.open .related:hover .post-reply, #postboard-top .post-area .post-area-new .related:hover .post-reply, .mini-profile .post-area-new .related:hover .post-reply,
+.open .related:hover .post-reply, #postboard-top .post-area .post-area-new .related:hover .post-reply, .mini-profile .post-area-new .related:hover .post-reply, .mini-profile .post-area-new .related:hover .post-translate,
 .open .related:hover .post-propagate,
 #postboard-top .post-area .post-area-new .related:hover .post-propagate,
 .mini-profile .post-area-new .related:hover .post-propagate,
@@ -2390,7 +2390,7 @@ button.light:hover, a.button.light:hover {
   opacity: 0;
   visibility: hidden;
 }
-.options input#tab_language:checked ~ .tab-content .language, .options input#t-2:checked ~ .tab-content .theme, .options input#t-3:checked ~ .tab-content .notifications, .options input#t-4:checked ~ .tab-content .keys, .options input#t-5:checked ~ .tab-content .appearance, .options input#t-6:checked ~ .tab-content .users, .options input#t-7:checked ~ .tab-content .webtorrent, .options input#t-8:checked ~ .tab-content .DMs {
+.options input#tab_language:checked ~ .tab-content .language, .options input#t-2:checked ~ .tab-content .theme, .options input#t-3:checked ~ .tab-content .notifications, .options input#t-4:checked ~ .tab-content .keys, .options input#t-5:checked ~ .tab-content .appearance, .options input#t-6:checked ~ .tab-content .users, .options input#t-7:checked ~ .tab-content .webtorrent, .options input#t-8:checked ~ .tab-content .DMs, .options input#t-9:checked ~ .tab-content .translation {
   position: relative;
   z-index: 10;
   opacity: 1;

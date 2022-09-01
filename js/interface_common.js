@@ -1873,6 +1873,43 @@ function postReplyClick(event) {
     event.stopPropagation();
 }
 
+function postTranslateClick(event) {
+
+    if ($.Options.TranslationEnabled.val === 'enable' && $.Options.TranslationAPI.val.length > 0) {
+
+        var post = $(this).closest('.post').find('.post-text');
+
+        // prevent merge string on tabulation usage
+        post.html(post.html().replaceAll('<br>',' '));
+
+        // some APIs not accept slash as the part of the get request routing
+        var request = post.text().replaceAll('/','|');
+
+        $.ajax({
+            dataType: 'json',
+            url: $.Options.TranslationAPI.val + encodeURIComponent(request),
+            success: function(json) {
+
+                if (json.translation) {
+
+                    var translation = htmlFormatMsg(json.translation.replaceAll('|','/'));
+
+                    post.html(translation.html);
+                }
+
+                if (json.error) {
+                    alert(json.error);
+                }
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        })
+    }
+
+    event.stopPropagation();
+}
+
 // Expande Área do Novo post
 function composeNewPost(e, postAreaNew) {
     e.stopPropagation();
@@ -3028,6 +3065,12 @@ function initInterfaceCommon() {
                 postExpandFunction(event, $(this));
         })
     ;
+
+    if ($.Options.TranslationEnabled.val !== 'enable') {
+        twister.tmpl.post.find('.post-translate').remove();
+    }
+
+    twister.tmpl.post.find('.post-translate').on('click', postTranslateClick);
     twister.tmpl.post.find('.post-reply').on('click', postReplyClick);
     twister.tmpl.post.find('.post-propagate').on('click', reTwistPopup);
     twister.tmpl.post.find('.post-favorite').on('click', favPopup);
