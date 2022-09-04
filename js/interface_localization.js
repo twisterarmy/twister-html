@@ -1127,7 +1127,12 @@ if(preferredLanguage == "uk"){
       "fav_this": "Is it for you only?",
       "Last activity": "Last activity",
         "New Users": "New Users",
-        "Live tracking" : "Live tracking"
+        "Live tracking" : "Live tracking",
+      "Translation": "Переклад",
+        "Translation support to display localized twists": "Підтримка функції автоматичних перекладів повідомлень",
+        "Translation API address": "Адреса API",
+        "Get Instances": "Список провайдерів",
+        "Translate": "Перекласти"
     };
 }
 
