@@ -5607,10 +5607,18 @@ polyglot.extend(wordset);
 var fixedLabels = [
 
   // common text containers
+  "a",
+  "span",
   "title",
   "button",
   "option",
   "textarea",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
 
   // An easy way to include new items in translation is to add the "label" class
   ".label",
