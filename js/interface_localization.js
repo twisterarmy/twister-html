@@ -814,7 +814,7 @@ if(preferredLanguage == "uk"){
       "days": "%{smart_count} день |||| %{smart_count} днів",
       "Detailed information": "Детальна інформація",
       "DHT network down.": "Мережа DHT недоступна.",
-      "Direct Messages": "Особисті повідомлення",
+      "Direct Messages": "Повідомлення",
       "Group Messages": "Групи",
       "Group Messages — New Group Creation": "Групові повідомлення — створення нової групи",
       "Group Messages — Join Group": "Групові повідомлення — приєднатися до групи",
