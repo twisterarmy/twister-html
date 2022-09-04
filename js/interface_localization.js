@@ -769,6 +769,14 @@ if(preferredLanguage == "uk"){
     polyglot.locale("uk");
     wordset = {
       "Actions ▼": "Дії ▼",
+      "External IP:": "Публічний IP:",
+      "External Port 1 (TCP):": "Перевірка порту 1 (TCP):",
+      "External Port 2 (TCP+UDP):": "Перевірка порту 2 (TCP+UDP):",
+      "Test open port (external site)": "Перевірити доступ до порту (зовнішній сайт)",
+      "WebTorrent": "WebTorrent",
+      "WebTorrent support to display shortened URL media": "Додати підтримку WebTorrent для відображення зкорочених URL",
+      "WebTorrent default trackers to use (announce list)": "Список трекерів WebTorrent (список анонсу)",
+      "Auto start download from users we follow": "Автоматично завантажувати від користувачів, на яких ви підписані",
       "Active DHT nodes:": "Активних вузлів DHT: ",
       "Add DNS": "Додати DNS",
       "Add peer": "Додати пір",
