@@ -815,7 +815,7 @@ if(preferredLanguage == "uk"){
       "Detailed information": "Детальна інформація",
       "DHT network down.": "Мережа DHT недоступна.",
       "Direct Messages": "Особисті повідомлення",
-      "Group Messages": "Групові повідомлення",
+      "Group Messages": "Групи",
       "Group Messages — New Group Creation": "Групові повідомлення — створення нової групи",
       "Group Messages — Join Group": "Групові повідомлення — приєднатися до групи",
       "group_key_cant_import": "Не вдається імпортувати ключ групи",
