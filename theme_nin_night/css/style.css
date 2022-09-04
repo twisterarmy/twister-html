@@ -1368,7 +1368,7 @@ button, .mini-profile-actions span, a.button {
   display: inline-block;
   line-height: 1em;
   font-weight: 500;
-  margin: 0;
+  margin: 2px 0;
   float: none;
   text-shadow: 2px 2px 0 transparent;
   -moz-transition-property: background;
