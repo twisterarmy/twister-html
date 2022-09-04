@@ -5607,7 +5607,6 @@ polyglot.extend(wordset);
 var fixedLabels = [
 
   // common text containers
-  "a",
   "span",
   "title",
   "button",
