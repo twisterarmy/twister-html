@@ -831,7 +831,7 @@ if(preferredLanguage == "uk"){
       "dns address": "адреса DNS",
       "downloading_block_chain": "Завантаження ланцюга блоків, будь ласка, зачекайте перед продовженням (ланцюг блоків віком %{days} днів).",
       "download_posts_status": "Завантажено %{portion} твістів", // Downloaded 10/30 posts
-      "Enable": "Включено",
+      "Enable": "Увімкнено",
       "error": "Помилка: %{error}",
       "error_connecting_to_daemon": "Помилка з’єднання з локальним сервером twister.",
       "Error in 'createwalletuser' RPC.": "Помилка у 'createwalletuser' RPC.",
