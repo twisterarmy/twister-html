@@ -1649,8 +1649,6 @@ ul.userMenu-search-profiles .mini-profile-name {
 }
 /* line 110, ../sass/style.sass */
 ul.userMenu-search-profiles .mini-profile-photo {
-  width: 30px;
-  height: 30px;
   margin: 0 10px 0 0;
   float: left;
 }
@@ -1821,20 +1819,13 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
 
 /* line 234, ../sass/style.sass */
 .mini-profile-photo {
-  width: 64px;
-  height: 64px;
   overflow: hidden;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
   display: block;
   margin: auto;
 }
 /* line 241, ../sass/style.sass */
 .mini-profile-photo img {
-  min-width: 100%;
-  min-height: 100%;
-  border-radius: 50%;
+  border-radius: 3px;
 }
 
 /* line 248, ../sass/style.sass */
@@ -1976,10 +1967,6 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
   width: 48px;
   height: 48px;
   overflow: hidden;
-}
-/* line 355, ../sass/style.sass */
-#postboard-top .profile-photo img {
-  width: 100%;
 }
 /* line 357, ../sass/style.sass */
 #postboard-top .post-area {
@@ -3410,8 +3397,6 @@ position: relative;
 }
 
 .following-own-modal .following-list .mini-profile-photo {
-    width: 64px;
-    height: 64px;
     margin-top: 12px;
     margin-bottom: 2px;
 }
