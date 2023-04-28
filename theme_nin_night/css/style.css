@@ -1968,6 +1968,11 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
   height: 48px;
   overflow: hidden;
 }
+
+#postboard-top .profile-photo img {
+  width: 100%;
+}
+
 /* line 357, ../sass/style.sass */
 #postboard-top .post-area {
   overflow: hidden;
