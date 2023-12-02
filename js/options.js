@@ -467,7 +467,7 @@ function tickOptionsPostPreview() {
     var imgPreviewCont = elem.find('.preview-container');
 
     fillElemWithTxt(elem.children().first(),
-        polyglot.t('post_preview_dummy', {logo: '/img/twister_mini.png', site: 'http://twister.net.co'}));
+        polyglot.t('post_preview_dummy', {logo: '/img/twisterarmy.png', site: 'http://twister.net.co'}));
 
     if ($.Options.displayPreview.val === 'enable') {
         imgPreviewCont.empty();

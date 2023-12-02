@@ -479,7 +479,7 @@ var MAL = function()
         if (!req.title)
             req.title = polyglot.t('notify_desktop_title');
         if (!req.icon)
-            req.icon = '../img/twister_mini.png';
+            req.icon = '../img/twisterarmy.png';
         if (!req.tag)
             req.tag = 'twister_notification';
         if (!req.timeout)
