@@ -863,7 +863,6 @@ if(preferredLanguage == "uk"){
       "Network": "Мережа",
       "Feedback": "Надіслати відгук",
       "Project Website": "Вебсайт проекту",
-      "Donate": "Підтримати",
       "Network config": "Налаштування мережі",
       "Network status": "Статус мережі",
       "New direct message...": "Нове повідомлення...",
