@@ -345,7 +345,7 @@ function initWebTorrent() {
 
     WEBTORRENT_ANNOUNCE = $.Options.WebTorrentTrackers.val.split(/[ ,]+/)
 
-    jQuery.ajax({
+    $.ajax({
         crossDomain: true,
         dataType: 'script',
         url: 'js/webtorrent.min.js',
@@ -359,7 +359,7 @@ function initWebTorrent() {
                 console.error('WARNING: ' + err.message);
             });
 
-            jQuery.ajax({
+            $.ajax({
                 crossDomain: true,
                 dataType: 'script',
                 url: 'js/localforage.min.js',
