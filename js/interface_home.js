@@ -390,12 +390,10 @@ function initWebTorrent() {
                                 }
                             }
                         }
-
                         // setup attach button
                         $(".post-area-attach").show();
-                        var fileInput = $("#fileInputAttach");
-                        fileInput.on('change', function(event) {
-                            var file = fileInput[0].files[0];
+                        $(document).on("change", "#fileInputAttach", function(event) {
+                            var file = event.target.files[0];
                             var seedingTorrent = undefined;
                             for (var i = 0; i < WebTorrentClient.torrents.length; i++) {
                                 var torrent = WebTorrentClient.torrents[i];
