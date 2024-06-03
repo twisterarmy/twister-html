@@ -1076,6 +1076,10 @@ samp {
   background: black;
 }
 
+.preview-container p {
+  font-size: small;
+}
+
 .post-stats {
   display: flex;
   height: 34px;
