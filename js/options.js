@@ -324,7 +324,7 @@ function twisterOptions() {
     });
     this.add({
         name: 'WebTorrentTrackers',
-        valDefault: 'wss://tracker.webtorrent.io,wss://tracker.btorrent.xyz,wss://tracker.openwebtorrent.com,wss://tracker.fastcast.nz'
+        valDefault: 'wss://tracker.webtorrent.io,wss://tracker.btorrent.xyz,wss://tracker.openwebtorrent.com,wss://tracker.fastcast.nz,wss://tracker.webtorrent.dev'
     });
     this.add({
         name: 'WebTorrentAutoDownload',
