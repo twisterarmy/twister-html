@@ -1309,7 +1309,7 @@ function _startTorrentDownloadAndPreview(torrentId, previewContainer, isMedia) {
         torrent = WebTorrentClient.add(torrentId);
 
     previewContainer.empty();
-    var speedStatus = $('<span class="post-text"/>');
+    var speedStatus = $('<p/>');
     previewContainer.append(speedStatus);
     function updateSpeed () {
         var progress = (100 * torrent.progress).toFixed(1)
