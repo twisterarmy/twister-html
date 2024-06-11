@@ -92,6 +92,43 @@ function requestNetInfo(cbFunc, cbArg) {
                function(args, ret) {
                    console.log("Error connecting to local twister daemon.");
                }, {});
+
+    twisterRpc("getpeerinfo", [],
+    function(args, ret) {
+
+        let connections = $(".connections > table > tbody");
+
+        connections.html('');
+
+        $.each(ret, function() {
+            connections.append(
+                $('<tr/>').append(
+                    $('<td/>').text(
+                        this.addr
+                    )
+                ).append(
+                    $('<td/>').text(
+                        this.subver
+                    )
+                ).append(
+                    $('<td/>').text(
+                        this.startingheight
+                    )
+                ).append(
+                    $('<td/>').text(
+                        this.bytessent / 1000
+                    )
+                ).append(
+                    $('<td/>').text(
+                        this.bytesrecv / 1000
+                    )
+                )
+            );
+        });
+    }, {cbFunc:cbFunc, cbArg:cbArg},
+    function(args, ret) {
+        console.log("Error connecting to local twister daemon.");
+    }, {});
 }
 
 function peerKeypress() {

@@ -244,6 +244,7 @@ ol, ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 100%;
 }
 
 /* line 28, ../../../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
