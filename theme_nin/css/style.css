@@ -1253,6 +1253,10 @@ span.connection-status.connected:before {
   font-weight: 700;
 }
 
+.connections > table > tbody > tr > td {
+  font-size: 11px;
+}
+
 /* line 1, ../sass/_commons.sass */
 * {
   outline: none !important;
