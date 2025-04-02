@@ -2177,7 +2177,7 @@ function replyTextCountRemaining(ta) {
     var textArea = $(ta);
     var c;
 
-    var MaxPostSize = $.Options.MaxPostEditorChars.val;
+    var MaxPostSize = textArea.hasClass("spam-msg") ? 140 : $.Options.MaxPostEditorChars.val;
     if (twister.var.isCurrentInputSplittable && splitedPostsCount > 1) {
         c = MaxPostSize - ta.value.length - (textArea.closest('form').find('textarea').index(ta) + 1).toString().length - splitedPostsCount.toString().length - 4;
         var reply_to = textArea.attr('data-reply-to');
