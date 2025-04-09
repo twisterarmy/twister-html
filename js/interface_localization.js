@@ -862,7 +862,7 @@ if(preferredLanguage == "uk"){
       "Must be 16 characters or less.": "Повинно бути не більше 16 символів.", // username
       "Network": "Мережа",
       "Feedback": "Надіслати відгук",
-      "Project Website": "Вебсайт проекту",
+      "Community website": "Вебсайт спільноти",
       "Network config": "Налаштування мережі",
       "Network status": "Статус мережі",
       "New direct message...": "Нове повідомлення...",
