@@ -3,7 +3,19 @@
 //
 // Format JSON posts and DMs to HTML.
 
-const _htmlFormatMsgAllowedUriSchemes = ['ed2k://', 'ipfs://', 'ipns://', 'magnet:?', 'xmpp:']; // TODO it should be optional
+const _htmlFormatMsgAllowedUriSchemes = [
+    'ed2k://',
+    'finger://',
+    'gemini://',
+    'gopher://',
+    'ipfs://',
+    'ipns://',
+    'magnet:?',
+    'nex://',
+    'scroll://',
+    'spartan://',
+    'xmpp:',
+]; // TODO it should be optional
 
 var _htmlFormatMsgLinkTemplateExternal;
 var _htmlFormatMsgLinkTemplateUser;
