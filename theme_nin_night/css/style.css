@@ -3632,11 +3632,17 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 }
 
 .mini-following-info .mini-profile-photo {
+  margin-bottom: 2px;
   max-height: 56px;
 }
 
 .mini-following-info .mini-screen-name {
   display: none;
+}
+
+.mini-following-info .mini-following-name {
+  font-size: 90%;
+  margin: 4px 0;
 }
 
 .modal-wrapper.following-modal h2 {
