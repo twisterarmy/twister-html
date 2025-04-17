@@ -68,10 +68,11 @@ function openCommonDMsModal() {
       return;
     }
 
+    /* Issue #41 by fd4a62740a56a0c68c2e4d109d1e3a046a447b85
     if ($.isEmptyObject(twister.DMs)) {
         setTimeout(openCommonDMsModal, 1000);
         return;
-    }
+    } */
 
     var modal = openModal({
         classAdd: 'directMessages',
@@ -99,10 +100,11 @@ function openDmWithUserModal(peerAlias) {
         return;
     }
 
+    /* Issue #41 by fd4a62740a56a0c68c2e4d109d1e3a046a447b85
     if ($.isEmptyObject(twister.DMs)) {
         setTimeout(openDmWithUserModal, 1000, peerAlias);
         return;
-    }
+    } */
 
     var modal = openModal({
         classAdd: 'directMessages',
@@ -144,10 +146,11 @@ function openGroupMessagesModal(groupAlias) {
         return;
     }
 
+    /* Issue #41 by fd4a62740a56a0c68c2e4d109d1e3a046a447b85
     if ($.isEmptyObject(twister.DMs)) {
         setTimeout(openGroupMessagesModal, 1000, groupAlias);
         return;
-    }
+    } */
 
     if (typeof groupAlias === 'undefined') {
         var modal = openModal({
