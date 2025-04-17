@@ -3621,6 +3621,7 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 
 .mini-following-info {
   background: #393c45;
+  border-radius: 2px;
   display: inline-block;
   margin: 2px;
   padding: 4px;
