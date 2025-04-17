@@ -1940,7 +1940,6 @@ ul.userMenu-search-profiles button:after, ul.userMenu-search-profiles .mini-prof
   -o-transition: height 0.3s linear;
   -ms-transition: height 0.3s linear;
   height: 28px;
-  border: none;
   background: #393c45;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 3px;
@@ -2064,12 +2063,12 @@ textarea.splited-post {
 }
 
 .post-area-new .post-textarea-edit-bar {
-    font-size: 11px;
-    margin: 2px 0;
+  font-size: 11px;
+  margin: 2px 0;
 }
 
 .post-area-new .post-textarea-edit-bar > * {
-    margin: 2px 4px;
+  margin: 2px 4px;
 }
 
 /* line 399, ../sass/style.sass */
@@ -2083,63 +2082,63 @@ textarea.splited-post {
 
 /* FIXME need to rework and replace all .twister-user to get same vis */
 .twister-peer {
-    min-height: 72px;
-    padding: 4px;
-    margin-bottom: 1px;
-    background: #393c45;
+  min-height: 72px;
+  padding: 4px;
+  margin-bottom: 1px;
+  background: #393c45;
 }
 
 .twister-peer + .twister-peer {
-    border-top: none;
+  border-top: none;
 }
 
 .twister-peer .avatar {
-    float: left;
-    width: 48px;
-    height: 48px;
-    overflow: hidden;
-    margin: 4px;
+  float: left;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  margin: 4px;
 }
 
 .twister-peer .avatar img {
-    width: 48px;
-    height: auto;
+  width: 48px;
+  height: auto;
 }
 
 .twister-peer .name {
-    display: inline-block;
+  display: inline-block;
 }
 
 .twister-peer .name:hover {
-    color: #ecb03f;
+  color: #ecb03f;
 }
 
 .twister-peer .alias {
-    color: #ecb03f;
-    display: inline-block;
+  color: #ecb03f;
+  display: inline-block;
 }
 
 .twister-peer .alias:hover {
-    color: #2b2e35;
+  color: #2b2e35;
 }
 
 .twister-peer .name {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .twister-peer .avatar:hover, .twister-peer .name:hover, .twister-peer .alias:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .twister-peer .bio {
-    text-align: center;
-    padding: 4px;
+  font-size: 90%;
+  margin-left: 56px;
 }
 
 .avatar.tiny {
-    width: 24px;
-    height: 24px;
-    border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
 }
 
 /******** WHO TO FOLLOW ********/
@@ -2176,30 +2175,29 @@ textarea.splited-post {
 
 /* line 422, ../sass/style.sass */
 .twister-user {
-  clear: both;
-  width: 100%;
-  position: relative;
-  margin: 0 0 1px 0;
-  width: 100%;
-  box-sizing: border-box;
-  float: right;
   background: #393c45;
+  box-sizing: border-box;
+  clear: both;
+  float: right;
+  margin: 0 0 1px 0;
+  position: relative;
+  width: 100%;
 }
 
 /* line 433, ../sass/style.sass */
 .twister-user-photo {
-  display: inline-block;
-  float: left;
-  vertical-align: middle;
-  width: 48px;
-  height: auto;
-  overflow: hidden;
-  margin: 10px;
   background: #31343d;
+  display: block;
+  float: left;
+  height: auto;
+  margin: 10px;
+  overflow: hidden;
+  width: 48px;
 }
 
 /* line 443, ../sass/style.sass */
 .twister-user-info {
+  margin-top: 10px;
   width: 80%;
 }
 
@@ -2224,11 +2222,11 @@ textarea.splited-post {
 }
 
 .who-to-follow .latest-activity {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .who-to-follow .latest-activity .label {
-    display: none;
+  display: none;
 }
 
 /* line 459, ../sass/style.sass */
@@ -2802,6 +2800,9 @@ ol.toptrends-list a:hover {
   margin-left: 0.1em;
 }
 
+.direct-messages-list {
+  margin: 16px auto;
+}
 /* line 767, ../sass/style.sass */
 .direct-messages-list .post {
   padding: 10px 30px 10px 15px;
@@ -2842,7 +2843,7 @@ ol.toptrends-list a:hover {
 
 .direct-messages-thread .post .post-info-name {
     display: block;
-    margin-left: 128px;
+    margin-left: 58px;
     padding: 0;
 }
 
@@ -2878,16 +2879,13 @@ ol.toptrends-list a:hover {
   font-size: 0.9em;
   padding: 5px 10px;
   z-index: 4;
-  float: left;
   word-wrap: break-word;
-  max-width: 60%;
   min-height: 15px;
 }
 /* line 833, ../sass/style.sass */
 .direct-messages-thread .post .post-photo {
   position: absolute;
   left: 0;
-  top: 10px;
 }
 
 .direct-messages-thread .post.sent .post-info {
@@ -2895,7 +2893,7 @@ ol.toptrends-list a:hover {
 }
 
 .direct-messages-thread .post.sent .post-info-name {
-    margin-right: 128px;
+    margin-right: 58px;
 }
 
 /* line 842, ../sass/style.sass */
@@ -2920,20 +2918,13 @@ ol.toptrends-list a:hover {
 
 
 .profile-card .profile-bio .group-description {
-    border: none;
+    background: #393c45;
+    border-radius: 2px;
+    border: 1px #2b2e35 solid;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
     text-align: center;
-    width: 60%;
-    padding: 4px;
-    vertical-align: middle;
-}
-
-.profile-card .profile-bio .group-description:focus {
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-bottom: solid 1px #2b2e35;
-}
-
-.profile-card .profile-bio .group-description:hover {
-    border-bottom: solid 1px #2b2e35;
 }
 
 .profile-card .profile-bio .save, .profile-card .profile-bio .cancel {
@@ -2964,10 +2955,6 @@ ol.toptrends-list a:hover {
 
 .group-messages-control .invite-form button {
     vertical-align: middle;
-}
-
-.group-messages-control.b-buttons {
-    padding: 4px;
 }
 
 .profile-card-buttons.group-messages-control.b-buttons {
@@ -3006,16 +2993,13 @@ ol.toptrends-list a:hover {
 }
 
 .group-messages-new-group .modal-content div div:last-child button {
-    margin: 8px 4px;
+    margin-bottom: 8px;
 }
 
 .group-messages-new-group .modal-content textarea {
-    border: 1px solid rgba(0, 0, 0, .1);
-    width: 500px;
     height: 56px;
     resize: none;
-    margin: 12px 16px;
-    padding: 2px 4px;
+    width: calc(100% - 8px);
 }
 
 .group-messages-new-group .modal-content textarea:focus {
@@ -3049,15 +3033,9 @@ ol.toptrends-list a:hover {
     text-align: right;
 }
 
-.group-messages-join-group .modal-content div div:last-child button {
-    margin: 8px 4px;
-}
-
 .group-messages-join-group .modal-content input {
-    border: 1px solid rgba(0, 0, 0, .1);
-    width: 500px;
-    margin: 12px 16px;
-    padding: 2px 4px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .group-messages-join-group .modal-content input:focus {
@@ -3071,10 +3049,10 @@ ol.toptrends-list a:hover {
 }
 
 .group-messages-join-group .modal-content .groups-list {
-    background-color: #FFF;
-    height: 120px;
+    border: 1px solid #2b2e35;
+    height: 104px;
     overflow-y: auto;
-    margin: 8px 8px 0;
+    padding: 8px;
 }
 
 /******** HASHTAG MODAL********** */
@@ -3639,4 +3617,34 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 
 .userMenu-config a:hover {
   color: rgba(255, 255, 255, 1)
+}
+
+.mini-following-info {
+  background: #393c45;
+  display: inline-block;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+}
+
+.mini-following-info:hover {
+  background: #464951;
+}
+
+.mini-following-info .mini-profile-photo {
+  max-height: 56px;
+}
+
+.mini-following-info .mini-screen-name {
+  display: none;
+}
+
+.modal-wrapper.following-modal h2 {
+  font-size: 80%;
+  margin: 8px;
+  text-align: center;
+}
+
+.modal-wrapper.following-modal ol {
+  text-align: center;
 }
