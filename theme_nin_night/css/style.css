@@ -2459,14 +2459,6 @@ ol.toptrends-list a:hover {
 
 /* line 592, ../sass/style.sass */
 .modal-content .postboard h2 {
-  position: fixed;
-  z-index: 2;
-  margin-top: -60px;
-  margin-left: -60px;
-  width: 520px;
-}
-/* line 599, ../sass/style.sass */
-.modal-content .postboard h2 span {
   display: none;
 }
 /* line 601, ../sass/style.sass */
