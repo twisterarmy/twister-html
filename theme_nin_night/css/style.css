@@ -1447,10 +1447,6 @@ button:disabled, button.disabled, .mini-profile-actions span.disabled, a.button.
   clear: none;
   padding: 10px;
 }
-/* line 23, ../sass/_tabs.sass */
-.options .appearance div div .label {
-  font-weight: 400;
-}
 /* line 27, ../sass/_tabs.sass */
 .options .tab-content {
   background: #393c45;
