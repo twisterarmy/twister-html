@@ -465,7 +465,7 @@ samp {
 /* line 63, ../sass/_profile.sass */
 .profile-modal .modal-content .postboard-posts {
   display: block;
-  height: 100%;
+  height: 100%!important; /* overwrite inline style added by common js dependency */
   overflow-y: auto;
 }
 /* line 67, ../sass/_profile.sass */
