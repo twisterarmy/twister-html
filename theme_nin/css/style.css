@@ -3620,3 +3620,7 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
     color: #B3B5B7;
     margin: 0 2px 0;
 }
+
+.post-area-attach {
+  float: left
+}

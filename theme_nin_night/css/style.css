@@ -3642,3 +3642,7 @@ ul.dropdown-menu .active, ul.dropdown-menu .active a {
 .modal-wrapper.following-modal ol {
   text-align: center;
 }
+
+.post-area-attach {
+  float: left
+}
