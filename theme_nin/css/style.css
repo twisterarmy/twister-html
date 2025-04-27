@@ -1065,6 +1065,10 @@ samp {
   background: black;
 }
 
+.preview-container img {
+  width: 100%;
+}
+
 .post-stats {
   display: flex;
   height: 34px;
