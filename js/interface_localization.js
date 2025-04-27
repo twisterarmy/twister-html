@@ -1141,7 +1141,7 @@ if(preferredLanguage == "uk"){
       "Translation": "Переклад",
         "Translation support to display localized twists": "Підтримка функції автоматичних перекладів повідомлень",
         "Translation API address": "Адреса API",
-        "Get Instances": "Список провайдерів",
+        "Get instances": "Список провайдерів",
         "Translate": "Перекласти"
     };
 }
