@@ -3470,18 +3470,16 @@ position: relative;
 
 /********** AUTOCOMPLETING *********/
 
-/* line 1087, ../sass/style.sass */
 ul.dropdown-menu {
   min-width: 160px;
   padding: 5px 0 7px;
   margin: 2px 0 0;
   list-style: none;
-  background-color: #fff;
+  background-color: #31343d;
   border-bottom: solid 2px #2b2e35;
   box-shadow: 8px 10px 10px 0px rgba(0,0,0, .2);
 }
 
-/* line 1105, ../sass/style.sass */
 ul.dropdown-menu > li > a {
   padding: 3px 20px;
   white-space: nowrap;
@@ -3490,7 +3488,7 @@ ul.dropdown-menu > li > a {
 
 ul.dropdown-menu li:hover,
 ul.dropdown-menu .active, ul.dropdown-menu .active a {
-  color: #2b2e35;
+  color: #fff;
   cursor: pointer;
 }
 
