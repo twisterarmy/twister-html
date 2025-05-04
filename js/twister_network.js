@@ -58,8 +58,8 @@ function requestNetInfo(cbFunc, cbArg) {
                        $(".using-proxy").show();
                        $(".not-using-proxy").hide();
                    } else {
-                       $(".ext-ip").text(ret.ext_addr_net1); // @TODO [TA] deprecated, will be replaced with array!
-                       $(".ext-port1").text(ret.ext_port1);
+                       $(".ext-ip").text(ret.ext_addr_net1); // @TODO [TA] deprecated, will be removed as not true
+                       $(".ext-port1").text(ret.ext_port1); // @TODO [TA] deprecated, will be replaced (bind array)
                        $(".ext-port2").text(ret.ext_port2);
                        $(".test-ext-port1").attr("href","http://www.yougetsignal.com/tools/open-ports/?port=" + ret.ext_port1);
                        $(".test-ext-port2").attr("href","http://www.yougetsignal.com/tools/open-ports/?port=" + ret.ext_port2);
